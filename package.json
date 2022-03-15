@@ -1,0 +1,24 @@
+{
+  "name": "teeeeeeeest-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "redux-thunk": "^2.4.1"
+  }
+}
